@@ -72,9 +72,48 @@ const ua = {
   'block4.title': 'Готові увійти в цей світ штучного інтелекту? Зв\'яжіться з нами через Telegram-бота або скористайтеся контактами нашого менеджера.'
 }
 
-const ru = {}
+const ru = {
+  'logo.text': 'Компания-разработчик AI-помощников',
 
-const dictionaries = { en, ua, ru };
+  'link1.title': 'Инновационные решения в области искусственного интеллекта',
+
+  'link2.title': 'Наши Возможности',
+
+  'link3.title': 'Зачем вам это нужно',
+
+  'link4.title': 'Свяжитесь с нами',
+
+  'block1.P1': 'Желаете увидеть, как изменится ваш бизнес в мире новых технологий? Мы можем вам это продемонстрировать. Наша команда профессионалов не только создаст ИИ-бота по вашему заказу, но и поможет вам сформулировать идею, какой искусственный интеллект подойдет именно вашему бизнесу.',
+
+  'block2.title': 'Наши Возможности',
+  'block2.P1.title': 'Агент или Ассистент',
+
+  'block2.P1.text': 'Этот инструмент обладает уникальной способностью извлекать информацию из структурированных баз данных или неструктурированных источников, таких как Slack, Notion, Google Docs и других. Агент может вести полноценный диалог с пользователем, запоминать историю сообщений и предоставлять консультации. Применение этого решения широко — от роли простого консультанта до замены, например, полноценного тур-агента. Агент способен на основе данных и запросов клиента подобрать оптимальный вариант отпуска.',
+
+  'block2.P2.title': 'Q/A Бот',
+
+  'block2.P2.text': 'Простой в использовании бот, предназначенный для ответов на вопросы пользователя. Получив четкий вопрос, он предоставляет четкий ответ, основываясь на имеющейся у него информации. Этот инструмент идеально подходит для решения широкого спектра задач, особенно если вам нужен инструмент проще, чем агент.',
+
+  'block2.P3.title': 'Аналитик ваших данных',
+
+  'block2.P3.text': 'Подобно агенту, этот инструмент предназначен для использования среди сотрудников. Он анализирует полученную информацию и создает новую на основе этого анализа. Менеджеры могут использовать аналитика для оценки эффективности сотрудников, продуктов или процессов внутри компании. Это мощное средство автоматизации для оптимизации внутренних процессов и принятия более обоснованных решений.',
+
+  'block2.P4.title': 'Custom Bot',
+
+  'block2.P4.text': 'Наш инновационный подход позволяет создавать боты, выходящие за рамки традиционных решений. Это может быть бот, который распознает голос и транслирует его в текст на другом языке, открывая новые возможности для общения и сотрудничества. Наши возможности кастомизации не имеют ограничений, позволяя воплощать самые смелые идеи в реальность.',
+
+  'block3.title': 'Зачем вам это нужно?',
+
+  'block3.text': 'Why do you need this? The answer is simple: our assistant is not just a program but a full-fledged helper capable of efficiently solving various tasks. Starting with consultant functions and ending with the ability to automate part of your daily work, it becomes a reliable ally in optimizing business processes. Remember just a few years ago when only a small number of companies had their bots on various platforms like Telegram, Discord, and others. Over time, people realized how convenient it is, and now almost every successful company has its bot. Artificial intelligence is the next stage of development. Be among the first, not waiting for others to catch up. With our team, you can shape ideas perfectly suited to your business, and our professional team will turn these ideas into reality, elevating you to the top in your industry. As of today, artificial intelligence is only used by massive corporations, so you will essentially find yourself in an unparalleled environment, significantly outpacing similar products in your industry by leveraging the latest technologies.',
+
+  'block4.title': 'Готовы войти в этот мир искусственного интеллекта? Свяжитесь с нами через Telegram-бота или воспользуйтесь контактами нашего менеджера.'
+}
+
+const dictionaries = {
+  en,
+  ua,
+  ru
+};
 
 export function translate(
   code,

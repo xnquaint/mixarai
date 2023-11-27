@@ -1,16 +1,23 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { translate } from '../utils/translate'
 import cn from 'classnames';
 
-function ButtonMenu() {
-  const lang = 'en';
+// eslint-disable-next-line react/prop-types
+function ButtonMenu({ lang }) {
   const [text, setText] = useState(translate('block2.P1.text', lang));
   const [activeButton, setActiveButton] = useState(1);
+  const [code, setCode] = useState('block2.P1.text');
+
+  useEffect(() => {
+    const generatedText = translate(code, lang);
+    setText(generatedText);
+  }, [lang, code]);
 
   const handleClick = (code, id) => {
+    setCode(code);
     setActiveButton(id);
-    const text = translate(code, lang);
-    setText(text);
+    const generatedText = translate(code, lang);
+    setText(generatedText);
   }
 
   return (
@@ -56,7 +63,7 @@ function ButtonMenu() {
             </button>
           </div>
 
-          <div className='max-w-[240px] sm:max-w-[480px] md:max-w-[720px]'>
+          <div className='max-w-[300px] sm:max-w-[480px] md:max-w-[720px]'>
             <p className='buttonText text-xl sm:text-2xl md:text-3xl'>{text}</p>
           </div>
         </div>
