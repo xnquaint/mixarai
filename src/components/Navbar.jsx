@@ -33,7 +33,7 @@ function Navbar({ lang, setLang }) {
 
   return (
     <div className='flex justify-between items-center h-36 max-w-[1240px] mx-auto px-4 text-white'>
-      <div className='bg-indigo-300'>
+      <div>
         <img src={Logo} alt="logo" className='object-cover h-24 w-24 sm:h-36 sm:w-36' />
       </div>
       <ul className='hidden md:flex text-xl'>
