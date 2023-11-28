@@ -5,7 +5,7 @@ const en = {
 
   'link2.title': 'Our Capabilities',
 
-  'link3.title': 'Why You Need Our Assistant',
+  'link3.title': 'Assistant Development',
 
   'link4.title': 'Connect with Us',
 
@@ -46,7 +46,7 @@ const ua = {
 
   'link2.title': 'Наші можливості',
 
-  'link3.title': 'Чому вам це потрібно',
+  'link3.title': 'Розробка Асистента',
 
   'link4.title': 'Зв\'яжіться з нами',
 
@@ -83,7 +83,7 @@ const ru = {
 
   'link2.title': 'Наши Возможности',
 
-  'link3.title': 'Зачем вам это нужно',
+  'link3.title': 'Разработка Ассистента',
 
   'link4.title': 'Свяжитесь с нами',
 
