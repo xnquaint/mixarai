@@ -7,7 +7,7 @@ import { translate } from '../utils/translate';
 function Footer({ lang }) {
   return (
     <div className='mx-auto py-10 px-4 flex flex-col bg-white'>
-      <div>
+      <div className='mx-auto'>
         <h1 className='md:text-2xl sm:text-xl text-lg font-bold'>
          {translate('block4.title', lang)}
         </h1>
