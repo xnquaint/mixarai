@@ -1,3 +1,3 @@
 # React + Vite
 
-Published on [mxai.tech](https://www.mxai.tech/)https://www.mxai.tech/
+Published on [mxai.tech](https://www.mxai.tech/)
