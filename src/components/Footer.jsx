@@ -6,9 +6,9 @@ import { translate } from '../utils/translate';
 // eslint-disable-next-line react/prop-types
 function Footer({ lang }) {
   return (
-    <div className='mx-auto py-10 px-4 flex flex-col bg-white'>
+    <div id='contact' className='mx-auto py-10 px-4 flex flex-col bg-white'>
       <div className='mx-auto'>
-        <h1 className='md:text-2xl sm:text-xl text-lg font-bold'>
+        <h1 className='md:text-2xl sm:text-xl text-lg font-bold mb-5'>
          {translate('block4.title', lang)}
         </h1>
       </div>
@@ -17,19 +17,19 @@ function Footer({ lang }) {
           href="https://t.me/mxaimngr"
           target='_blank' rel="noreferrer"
         >
-          <FaTelegram size={50}/>
+          <FaTelegram size={60}/>
         </a>
         <a
-          href="mailto: mikgysome@gmail.com"
+          href="mailto: info.mxai@gmail.com"
           target='_blank' rel="noreferrer"
         >
-          <TfiEmail size={50}/>
+          <TfiEmail size={60}/>
         </a>
         <a
           href="https://t.me/assistantmxai_bot"
           target='_blank' rel="noreferrer"
         >
-          <FaRobot size={50}/>
+          <FaRobot size={60}/>
         </a>
       </div>
     </div>

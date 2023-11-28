@@ -18,11 +18,24 @@ import Slide3ru from '../assets/3ru.png';
 import Slide4ru from '../assets/4ru.png';
 import Slide5ru from '../assets/5ru.png';
 import Slide6ru from '../assets/6ru.png';
-
-/* make carousel mobile responsive */
+import { useLayoutEffect, useState } from 'react';
 
 // eslint-disable-next-line react/prop-types
 function Photos({ lang }) {
+  const [size, setSize] = useState([0, 0]);
+
+  useLayoutEffect(() => {
+    function updateSize() {
+      setSize(window.innerWidth);
+    }
+    window.addEventListener('resize', updateSize);
+    updateSize();
+    return () => window.removeEventListener('resize', updateSize);
+  }, []);
+
+  // let widthX = size > 720 ? '100%' : '100%%';
+  let thumbX = size > 720 ? 80 : 50;
+
   const slideComponents = {
     1: {
       'en': Slide1,
@@ -61,7 +74,7 @@ function Photos({ lang }) {
   }
 
   return (
-    <Carousel width={420} thumbWidth={60}>
+    <Carousel  thumbWidth={thumbX}>
       <div>
         <img src={handlePhotos(1)} />
       </div>
