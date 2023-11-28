@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { translate } from '../utils/translate';
+import Logo from '../assets/big_logo.jpg';
+
 // eslint-disable-next-line react/prop-types
 function Navbar({ lang, setLang }) {
   const [nav, setNav] = useState(false);
@@ -12,7 +14,7 @@ function Navbar({ lang, setLang }) {
   return (
     <div className='flex justify-around items-center h-36 max-w-[1240px] mx-auto px-4 text-white'>
       <div className='bg-indigo-300'>
-        <img src="/big_logo.jpg" alt="logo" className='object-cover h-24 w-24' />
+        <img src={Logo} alt="logo" className='object-cover h-24 w-24' />
       </div>
       <ul className='hidden md:flex text-xl'>
         <li className='p-4'>{translate('link2.title', lang)}</li>
