@@ -34,7 +34,9 @@ const en = {
 
   'block3.text': 'Why do you need this? The answer is simple: our assistant is not just a program but a full-fledged helper capable of efficiently solving various tasks. Starting with consultant functions and ending with the ability to automate part of your daily work, it becomes a reliable ally in optimizing business processes. Remember just a few years ago when only a small number of companies had their bots on various platforms like Telegram, Discord, and others. Over time, people realized how convenient it is, and now almost every successful company has its bot. Artificial intelligence is the next stage of development. Be among the first, not waiting for others to catch up. With our team, you can shape ideas perfectly suited to your business, and our professional team will turn these ideas into reality, elevating you to the top in your industry. As of today, artificial intelligence is only used by massive corporations, so you will essentially find yourself in an unparalleled environment, significantly outpacing similar products in your industry by leveraging the latest technologies.',
 
-  'block4.title': 'Ready to enter the world of artificial intelligence? Reach out to us through the Telegram bot or contact our manager directly.'
+  'block4.title': 'Ready to enter the world of artificial intelligence?',
+
+  'block4.title2': 'Reach out to us through the Telegram bot or contact our manager directly.',
 }
 
 const ua = {
@@ -69,7 +71,9 @@ const ua = {
 
   'block3.title': 'Чому вам це потрібно?',
 
-  'block4.title': 'Готові увійти в цей світ штучного інтелекту? Зв\'яжіться з нами через Telegram-бота або скористайтеся контактами нашого менеджера.'
+  'block4.title': 'Готові увійти в цей світ штучного інтелекту?',
+
+  'block4.title2': 'Зв\'яжіться з нами через Telegram-бота або скористайтеся контактами нашого менеджера.',
 }
 
 const ru = {
@@ -106,7 +110,9 @@ const ru = {
 
   'block3.text': 'Why do you need this? The answer is simple: our assistant is not just a program but a full-fledged helper capable of efficiently solving various tasks. Starting with consultant functions and ending with the ability to automate part of your daily work, it becomes a reliable ally in optimizing business processes. Remember just a few years ago when only a small number of companies had their bots on various platforms like Telegram, Discord, and others. Over time, people realized how convenient it is, and now almost every successful company has its bot. Artificial intelligence is the next stage of development. Be among the first, not waiting for others to catch up. With our team, you can shape ideas perfectly suited to your business, and our professional team will turn these ideas into reality, elevating you to the top in your industry. As of today, artificial intelligence is only used by massive corporations, so you will essentially find yourself in an unparalleled environment, significantly outpacing similar products in your industry by leveraging the latest technologies.',
 
-  'block4.title': 'Готовы войти в этот мир искусственного интеллекта? Свяжитесь с нами через Telegram-бота или воспользуйтесь контактами нашего менеджера.'
+  'block4.title': 'Готовы войти в этот мир искусственного интеллекта?',
+
+  'block4.title2': 'Свяжитесь с нами через Telegram-бота или воспользуйтесь контактами нашего менеджера.',
 }
 
 const dictionaries = {

@@ -19,6 +19,18 @@ function Navbar({ lang, setLang }) {
 
   }, [nav]);
 
+  const handleLink = () => {
+    setTimeout(() => {
+      const currentUrl = window.location.href;
+
+      // Удаляем фрагмент идентификатора из строки поиска
+      const urlWithoutHash = currentUrl.split('#')[0];
+
+      // Обновляем URL без фрагмента идентификатора
+      window.history.replaceState({}, document.title, urlWithoutHash);
+    }, 5);
+  }
+
   return (
     <div className='flex justify-between items-center h-36 max-w-[1240px] mx-auto px-4 text-white'>
       <div className='bg-indigo-300'>
@@ -26,17 +38,17 @@ function Navbar({ lang, setLang }) {
       </div>
       <ul className='hidden md:flex text-xl'>
         <li className='p-4'>
-          <a href="#capabilities">
+          <a href="#capabilities" onClick={handleLink}>
             {translate('link2.title', lang)}
           </a>
         </li>
         <li className='p-4'>
-          <a href="#presentation">
+          <a href="#presentation" onClick={handleLink}>
             {translate('link3.title', lang)}
           </a>
         </li>
         <li className='p-4'>
-          <a href="#contact">
+          <a href="#contact" onClick={handleLink}>
             {translate('link4.title', lang)}
           </a>
         </li>

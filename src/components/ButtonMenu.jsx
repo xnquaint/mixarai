@@ -29,7 +29,8 @@ function ButtonMenu({ lang }) {
             <button
               className={cn('button', {
                 'bg-white text-black border-2 border-black': activeButton === 1,
-              }, 'bg-black text-white w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
+                'bg-black text-white' : activeButton !== 1,
+              }, 'w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
               onClick={() => handleClick('block2.P1.text', 1)}
             >
               {translate('block2.P1.title', lang)}
@@ -38,7 +39,8 @@ function ButtonMenu({ lang }) {
             <button
               className={cn('button', {
                 'bg-white text-black border-2 border-black': activeButton === 2,
-              }, 'bg-black text-white w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
+                'bg-black text-white' : activeButton !== 2,
+              }, 'w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
               onClick={() => handleClick('block2.P2.text', 2)}
             >
               {translate('block2.P2.title', lang)}
@@ -47,7 +49,8 @@ function ButtonMenu({ lang }) {
             <button
               className={cn('button', {
                 'bg-white text-black border-2 border-black': activeButton === 3,
-              }, 'bg-black text-white w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
+                'bg-black text-white' : activeButton !== 3,
+              }, 'w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
               onClick={() => handleClick('block2.P3.text', 3)}
             >
               {translate('block2.P3.title', lang)}
@@ -56,7 +59,8 @@ function ButtonMenu({ lang }) {
             <button
               className={cn('button', {
                 'bg-white text-black border-2 border-black': activeButton === 4,
-              }, 'bg-black text-white w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
+                'bg-black text-white' : activeButton !== 4,
+              }, 'w-[80px] sm:w-[160px] md:w-[240px] rounded-md h-10 text-xs sm:text-lg md:text-xl ease-in-out duration-100')}
               onClick={() => handleClick('block2.P4.text', 4)}
             >
               {translate('block2.P4.title', lang)}
